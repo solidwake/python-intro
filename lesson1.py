@@ -39,3 +39,15 @@ print('')
 
 print('Language =',lang, '\nName =',name, '\nSuccess rate =',id)
 print('')
+
+#*Some data types
+integer = 37
+string = "Violet"
+float = 100.46
+boolean = False
+NoneType = None
+list = [3.5, 19, "World Cup", True]
+tuple = (10, 20)
+range = range(3, 36, 3)
+dict = {"Idris": True}
+set = {3, 9, 1}
