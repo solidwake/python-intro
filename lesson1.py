@@ -84,3 +84,8 @@ print(f'{49 / 15:.2f}')
 # Formatter method
 print('My name is {}'.format(name))
 print('My name is {} and my daughter\'s name is {}. She has a brother named {}.'.format(name, string, name.replace('Idris', 'Saji')))
+
+#* Operators
+#* Arithmetic +, -, *, /, %
+#* Relational(Comparison) >, <, =>, <=
+#* Logical and, or, not
