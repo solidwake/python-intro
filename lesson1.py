@@ -40,21 +40,37 @@ print('')
 print('Language =',lang, '\nName =',name, '\nSuccess rate =',id)
 print('')
 
-#*Some data types
+#* Some data types
 integer = 37
-string = "Violet"
+string = 'Violet'
 float = 100.46
 boolean = False
 NoneType = None
-list = [3.5, 19, "World Cup", True]
+list = [3.5, 19, 'World Cup', True]
 tuple = (10, 20)
 range = range(3, 36, 3)
-dict = {"Idris": True}
+dict = {'Idris': True}
 set = {3, 9, 1}
 
+#* type() function reads and prints the data type of a given variable
 print(type(integer))
 print(type(string))
 print(type(100.46))
 print(type(set))
 print(type(dict))
 print(type((3, 36, 3)))
+
+#* String methods
+print(len(name)) # print the length of a string
+print(name.upper()) # convert the letters to uppercase
+print(name.lower()) # convert the letters to lowercase
+print(name.capitalize()) # convert the first letter of a string to a capital letter
+print(name.title()) # convert the first letter of each word to a capital letter
+print(name.replace('Idris', 'Saji')) # replace a given string (or part of a string) with a given replacement string
+print(name[3:]) # slice off part of a string from the first character, determined by the number of characters given
+print(name[:-3]) # slice off part of a string from the last character, determined by the negative number of characters given
+print(name[3:-2]) # these methods can be combined
+print(name.count('i')) # count how many times a substring appears in a given string
+print(name.strip()) # remove spaces from the beginning and end of a string
+print(name.lstrip()) # remove spaces from the beginning of a string
+print(name.rstrip()) # remove spaces from the end of a string
