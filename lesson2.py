@@ -10,11 +10,11 @@
 #print(type(x))
 
 #* Type casting can be used in any data type to manually convert it to another
-a = 45.77
-print(type(a))
-a = int(a)
-print(a)
-print(type(a))
+#a = 45.77
+#print(type(a))
+#a = int(a)
+#print(a)
+#print(type(a))
 
 #* Convert a user input to another data type
 #y = input('Enter a number ')
@@ -22,6 +22,12 @@ print(type(a))
 #print(y - 5)
 #print(type(y))
 
-y = int(input('Enter first number '))
-z = int(input('Enter second number '))
-print(y + z)
+#y = int(input('Enter first number '))
+#z = int(input('Enter second number '))
+#print(y + z)
+
+#* Concatenation
+fname = 'Idris'
+lname = 'Westbrook'
+
+print('My name is' + ' ' + fname + ' ' + lname)
