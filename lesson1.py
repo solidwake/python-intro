@@ -51,3 +51,10 @@ tuple = (10, 20)
 range = range(3, 36, 3)
 dict = {"Idris": True}
 set = {3, 9, 1}
+
+print(type(integer))
+print(type(string))
+print(type(100.46))
+print(type(set))
+print(type(dict))
+print(type((3, 36, 3)))
