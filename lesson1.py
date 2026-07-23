@@ -74,3 +74,13 @@ print(name.count('i')) # count how many times a substring appears in a given str
 print(name.strip()) # remove spaces from the beginning and end of a string
 print(name.lstrip()) # remove spaces from the beginning of a string
 print(name.rstrip()) # remove spaces from the end of a string
+
+#* String formatting
+print(f'My name is {name}')
+print(f'My son\'s name is {name.replace('Idris', 'Saji')}')
+print(f'{name} will be {45 + 1} years old on August {7 + 6}th')
+# an example of a method to print only (x) numbers after the decimal of a float
+print(f'{49 / 15:.2f}')
+# Formatter method
+print('My name is {}'.format(name))
+print('My name is {} and my daughter\'s name is {}. She has a brother named {}.'.format(name, string, name.replace('Idris', 'Saji')))
