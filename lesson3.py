@@ -1,9 +1,10 @@
 
 #* Conditional Statements
-print(451>69)
-if 451 > 69:
+
+a = 45
+b = 46
+
+if a > b:
     print('True')
-    print('inside the if statement')
 else:
     print('False')
-    print('inside the else block')
