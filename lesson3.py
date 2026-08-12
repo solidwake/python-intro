@@ -23,3 +23,23 @@ elif score > 60:
     print('You got a D')
 else:
     print('You failed.')
+
+#* Equality Operators
+# Used to compare variables/data types
+
+a = 89
+
+if 34 == 34:
+    print('Yes, both are equal')
+else:
+    print('Not equal')
+
+if 'root' == 'root ':
+    print('Yes, both are equal')
+else:
+    print('Not equal')
+
+if 12 != 6:
+    print('Not equal')
+else:
+    print('Equal')
